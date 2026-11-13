@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Painel · Assis.ink</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body class="adm">
+<header class="adm__top">
+  <a class="brand" href="/" target="_blank" rel="noopener"><span class="brand__word">assis<span class="red">.ink</span></span></a>
+  <span class="adm__tag">Painel</span>
+  <nav class="adm__tabs" id="tabs" hidden>
+    <button data-tab="pedidos" aria-pressed="true">Pedidos <b id="badge"></b></button>
+    <button data-tab="agenda">Agenda</button>
+    <button data-tab="catalogo">Catálogo</button>
+    <button data-tab="portfolio">Portfólio</button>
+    <button data-tab="config">Configurações</button>
+  </nav>
+  <button class="chip adm__logout" id="logout" hidden>Sair</button>
+</header>
+
+<main class="adm__main">
+  <form class="adm__login form" id="login" hidden>
+    <h1 class="title title--md">Entrar</h1>
+    <label class="field"><span>Senha do painel</span><input type="password" name="password" autocomplete="current-password" required></label>
+    <p class="form__error" role="alert"></p>
+    <button class="btn btn--red">Entrar</button>
+  </form>
+
+  <div id="alerts"></div>
+
+  <section data-panel="pedidos" hidden>
+    <div class="adm__bar">
+      <h1 class="adm__h">Pedidos de agendamento</h1>
+      <div class="filters" id="status-filter">
+        <button data-s="aguardando" aria-pressed="true">Aguardando</button>
+        <button data-s="confirmado">Confirmados</button>
+        <button data-s="concluido">Concluídos</button>
+        <button data-s="recusado,cancelado">Recusados/cancelados</button>
+        <button data-s="all">Todos</button>
+      </div>
+    </div>
+    <div class="adm__split">
+      <ul class="adm__list" id="booking-list"></ul>
+      <article class="adm__detail" id="booking-detail"><p class="muted">Selecione um pedido.</p></article>
+    </div>
+  </section>
+
+  <section data-panel="agenda" hidden>
+    <h1 class="adm__h">Google Agenda</h1>
+    <div class="card" id="google-box"></div>
+    <h2 class="adm__h2">Próximos compromissos (30 dias)</h2>
+    <ul class="adm__events" id="events"></ul>
+  </section>
+
+  <section data-panel="catalogo" hidden>
+    <div class="adm__bar">
+      <h1 class="adm__h">Artes disponíveis</h1>
+      <div class="adm__actions"><label class="btn btn--line btn--small file-btn">Nova arte<input type="file" accept="image/*" id="new-art"></label><button class="btn btn--red btn--small" data-save="catalog">Salvar catálogo</button></div>
+    </div>
+    <p class="muted">Status "Consultar disponibilidade" aparece no site até você marcar cada arte como disponível, reservada ou já tatuada.</p>
+    <div class="adm__grid" id="catalog-edit"></div>
+  </section>
+
+  <section data-panel="portfolio" hidden>
+    <div class="adm__bar">
+      <h1 class="adm__h">Portfólio</h1>
+      <div class="adm__actions"><label class="btn btn--line btn--small file-btn">Novo trabalho<input type="file" accept="image/*" multiple id="new-work"></label><button class="btn btn--red btn--small" data-save="portfolio">Salvar portfólio</button></div>
+    </div>
+    <p class="muted">Estilos usados nos filtros: fineline, floral, oriental, blackgrey, oldschool, escrita, anime, blackwork. Separe por vírgula.</p>
+    <div class="adm__works" id="portfolio-edit"></div>
+  </section>
+
+  <section data-panel="config" hidden>
+    <h1 class="adm__h">Configurações</h1>
+    <form id="settings" class="adm__settings">
+      <fieldset class="card"><legend>Contato</legend>
+        <div class="row"><label class="field"><span>WhatsApp (só números, com 55 e DDD)</span><input name="c.whatsapp" inputmode="numeric"></label><label class="field"><span>WhatsApp como aparece no site</span><input name="c.whatsappLabel"></label></div>
+        <label class="consent"><input type="checkbox" name="c.whatsappConfirmed"><span>Confirmo que esse número está correto e recebe mensagens.</span></label>
+        <div class="row"><label class="field"><span>E-mail</span><input name="c.email" type="email"></label><label class="field"><span>Instagram</span><input name="c.instagram"></label></div>
+        <div class="row"><label class="field"><span>Cidade</span><input name="c.city"></label><label class="field"><span>Endereço do estúdio (aparece no site)</span><input name="c.address" placeholder="Deixe vazio até confirmar"></label></div>
+      </fieldset>
+      <fieldset class="card"><legend>Regras da agenda</legend>
+        <div class="field"><span>Dias de atendimento</span><div class="choices" id="wdays"></div></div>
+        <div class="row"><label class="field"><span>Abre às</span><input type="time" name="b.open"></label><label class="field"><span>Fecha às</span><input type="time" name="b.close"></label></div>
+        <div class="row"><label class="field"><span>Pausa (início)</span><input type="time" name="b.breakStart"></label><label class="field"><span>Pausa (fim)</span><input type="time" name="b.breakEnd"></label></div>
+        <div class="row"><label class="field"><span>Duração padrão da sessão (min)</span><input type="number" name="b.sessionMinutes" min="30" max="720" step="15"></label><label class="field"><span>Intervalo entre sessões (min)</span><input type="number" name="b.bufferMinutes" min="0" max="240" step="5"></label></div>
+        <div class="row"><label class="field"><span>Antecedência mínima (horas)</span><input type="number" name="b.minAdvanceHours" min="0"></label><label class="field"><span>Agenda aberta por (dias)</span><input type="number" name="b.maxDaysAhead" min="7" max="365"></label></div>
+        <div class="row"><label class="field"><span>Horários oferecidos a cada (min)</span><input type="number" name="b.stepMinutes" min="15" max="240" step="15"></label><label class="field"><span>Pré-reserva segura o horário por (horas)</span><input type="number" name="b.holdHours" min="1"></label></div>
+        <label class="field"><span>Folgas e dias sem atendimento (AAAA-MM-DD, um por linha)</span><textarea name="b.daysOff" rows="3"></textarea></label>
+      </fieldset>
+      <button class="btn btn--red">Salvar configurações</button>
+    </form>
+  </section>
+</main>
+<script type="module" src="/admin/admin.js"></script>
+</body>
+</html>

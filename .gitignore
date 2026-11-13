@@ -1,0 +1,12 @@
+# segredos e dados de produção (nunca no Git)
+.env
+.senha-painel-local.txt
+CONFIG-HOSTINGER-PRIVADO.txt
+data/
+
+# gerados
+release/
+node_modules/
+
+# vídeos originais (pesados; ficam só no computador)
+referencias/**/*.mp4

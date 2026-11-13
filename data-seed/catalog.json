@@ -1,0 +1,290 @@
+[
+  {
+    "id": "AI-01",
+    "slug": "leque",
+    "title": "Leque com lua e nuvens",
+    "tags": [
+      "ornamental"
+    ],
+    "image": "/assets/flash/leque.webp",
+    "sheet": "/assets/flash/folha-flash-01.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-02",
+    "slug": "flor-ornamental",
+    "title": "Flor ornamental",
+    "tags": [
+      "floral",
+      "ornamental"
+    ],
+    "image": "/assets/flash/flor-ornamental.webp",
+    "sheet": "/assets/flash/folha-flash-01.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-03",
+    "slug": "diaba",
+    "title": "Diaba",
+    "tags": [
+      "personagens"
+    ],
+    "image": "/assets/flash/diaba.webp",
+    "sheet": "/assets/flash/folha-flash-01.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-04",
+    "slug": "flor-olho",
+    "title": "Flor com olho",
+    "tags": [
+      "floral"
+    ],
+    "image": "/assets/flash/flor-olho.webp",
+    "sheet": "/assets/flash/folha-flash-01.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-05",
+    "slug": "sol-oval",
+    "title": "Sol no oval",
+    "tags": [
+      "ornamental"
+    ],
+    "image": "/assets/flash/sol-oval.webp",
+    "sheet": "/assets/flash/folha-flash-01.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-06",
+    "slug": "coringa-cidade",
+    "title": "Coringa e a cidade",
+    "tags": [
+      "personagens"
+    ],
+    "image": "/assets/flash/coringa-cidade.webp",
+    "sheet": "/assets/flash/folha-flash-02.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-07",
+    "slug": "duas-faces",
+    "title": "Duas faces",
+    "tags": [
+      "personagens"
+    ],
+    "image": "/assets/flash/duas-faces.webp",
+    "sheet": "/assets/flash/folha-flash-02.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-08",
+    "slug": "cinco-faces",
+    "title": "Cinco faces",
+    "tags": [
+      "personagens"
+    ],
+    "image": "/assets/flash/cinco-faces.webp",
+    "sheet": "/assets/flash/folha-flash-02.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-09",
+    "slug": "lirio-floresca-sempre",
+    "title": "Lírio · Floresça sempre",
+    "tags": [
+      "floral",
+      "ornamental"
+    ],
+    "image": "/assets/flash/lirio-floresca-sempre.webp",
+    "sheet": "/assets/flash/folha-flash-03.webp",
+    "size": "até 22 cm",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-10",
+    "slug": "lotus-coluna",
+    "title": "Lótus em coluna",
+    "tags": [
+      "floral",
+      "ornamental"
+    ],
+    "image": "/assets/flash/lotus-coluna.webp",
+    "sheet": "/assets/flash/folha-flash-04.webp",
+    "size": "até 35 cm",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-11",
+    "slug": "pantera",
+    "title": "Pantera tribal",
+    "tags": [
+      "autoral",
+      "tradicional"
+    ],
+    "image": "/assets/flash/pantera.webp",
+    "sheet": "/assets/flash/folha-flash-05.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-12",
+    "slug": "pato-punk",
+    "title": "Pato punk",
+    "tags": [
+      "autoral"
+    ],
+    "image": "/assets/flash/pato-punk.webp",
+    "sheet": "/assets/flash/folha-flash-05.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-13",
+    "slug": "caveira-bobo",
+    "title": "Caveira bobo da corte",
+    "tags": [
+      "autoral",
+      "tradicional"
+    ],
+    "image": "/assets/flash/caveira-bobo.webp",
+    "sheet": "/assets/flash/folha-flash-05.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-14",
+    "slug": "flor-papoula",
+    "title": "Papoula",
+    "tags": [
+      "autoral",
+      "floral"
+    ],
+    "image": "/assets/flash/flor-papoula.webp",
+    "sheet": "/assets/flash/folha-flash-06.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-15",
+    "slug": "flor-coracao",
+    "title": "Flor coração",
+    "tags": [
+      "autoral",
+      "floral"
+    ],
+    "image": "/assets/flash/flor-coracao.webp",
+    "sheet": "/assets/flash/folha-flash-06.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-16",
+    "slug": "margarida",
+    "title": "Margarida sorrindo",
+    "tags": [
+      "autoral",
+      "floral"
+    ],
+    "image": "/assets/flash/margarida.webp",
+    "sheet": "/assets/flash/folha-flash-06.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-17",
+    "slug": "flor-ornamento",
+    "title": "Ornamento floral",
+    "tags": [
+      "autoral",
+      "ornamental"
+    ],
+    "image": "/assets/flash/flor-ornamento.webp",
+    "sheet": "/assets/flash/folha-flash-06.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-18",
+    "slug": "adaga",
+    "title": "Adaga partida",
+    "tags": [
+      "autoral",
+      "flash",
+      "tradicional"
+    ],
+    "image": "/assets/flash/adaga.webp",
+    "sheet": "/assets/flash/folha-flash-07.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-19",
+    "slug": "flor-olho-gota",
+    "title": "Flor com olho e gota",
+    "tags": [
+      "autoral",
+      "flash"
+    ],
+    "image": "/assets/flash/flor-olho-gota.webp",
+    "sheet": "/assets/flash/folha-flash-07.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-20",
+    "slug": "gato-coffee",
+    "title": "Gato no café",
+    "tags": [
+      "autoral",
+      "flash"
+    ],
+    "image": "/assets/flash/gato-coffee.webp",
+    "sheet": "/assets/flash/folha-flash-07.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  },
+  {
+    "id": "AI-21",
+    "slug": "caveira-chapeu",
+    "title": "Caveira de chapéu",
+    "tags": [
+      "autoral",
+      "flash",
+      "tradicional"
+    ],
+    "image": "/assets/flash/caveira-chapeu.webp",
+    "sheet": "/assets/flash/folha-flash-07.webp",
+    "size": "",
+    "status": "consultar",
+    "note": ""
+  }
+]

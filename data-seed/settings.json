@@ -1,0 +1,40 @@
+{
+  "contact": {
+    "whatsapp": "558382058633",
+    "whatsappLabel": "(83) 8205-8633",
+    "whatsappConfirmed": false,
+    "email": "assisneto404@gmail.com",
+    "instagram": "https://www.instagram.com/assis.ink/",
+    "city": "João Pessoa, Paraíba",
+    "address": "",
+    "mapsUrl": ""
+  },
+  "booking": {
+    "timezone": "America/Fortaleza",
+    "utcOffset": "-03:00",
+    "workingDays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "open": "09:00",
+    "close": "18:00",
+    "breaks": [
+      {
+        "start": "12:00",
+        "end": "13:00"
+      }
+    ],
+    "sessionMinutes": 180,
+    "bufferMinutes": 30,
+    "stepMinutes": 60,
+    "minAdvanceHours": 48,
+    "maxDaysAhead": 60,
+    "daysOff": [],
+    "holdHours": 48
+  },
+  "configuredByArtist": false
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "floral-lirios-borboletas",
+    "title": "Lírios e borboletas",
+    "styles": [
+      "fineline",
+      "floral"
+    ],
+    "placement": "Costela",
+    "date": "2026-10-04",
+    "description": "Traço fino, flores e leveza. Cada detalhe pensado para acompanhar o movimento do corpo.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DeFVjo7IEKV/",
+    "featured": true,
+    "images": [
+      {
+        "src": "/assets/portfolio/floral-lirios-borboletas-1-full.webp",
+        "thumb": "/assets/portfolio/floral-lirios-borboletas-1-760.webp",
+        "w": 1500,
+        "h": 2000,
+        "alt": "Tatuagem fine line de lírios e borboletas na costela, feita por Assis.ink em João Pessoa"
+      },
+      {
+        "src": "/assets/portfolio/floral-lirios-borboletas-2-full.webp",
+        "thumb": "/assets/portfolio/floral-lirios-borboletas-2-760.webp",
+        "w": 1503,
+        "h": 2000,
+        "alt": "Estêncil do desenho de lírios e borboletas sobre a bancada, antes da sessão"
+      }
+    ]
+  },
+  {
+    "id": "oriental-ondas-sakura",
+    "title": "Ondas e sakura",
+    "styles": [
+      "oriental",
+      "blackgrey"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-09-18",
+    "description": "Estilo oriental com ondas e flores de cerejeira, finalizada em 3 sessões.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DdbMkzakWc-/",
+    "featured": true,
+    "images": [
+      {
+        "src": "/assets/portfolio/oriental-ondas-sakura-1-full.webp",
+        "thumb": "/assets/portfolio/oriental-ondas-sakura-1-760.webp",
+        "w": 1500,
+        "h": 2000,
+        "alt": "Tatuagem oriental de ondas e flores de cerejeira em preto e cinza no antebraço"
+      }
+    ]
+  },
+  {
+    "id": "old-school-never-more",
+    "title": "Never More",
+    "styles": [
+      "oldschool"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-09-05",
+    "description": "Old school com livro, chamas e flores.",
+    "instagram": "https://www.instagram.com/assis.ink/p/Dc7FNC5D674/",
+    "images": [
+      {
+        "src": "/assets/portfolio/old-school-never-more-1-full.webp",
+        "thumb": "/assets/portfolio/old-school-never-more-1-760.webp",
+        "w": 1200,
+        "h": 1200,
+        "alt": "Tatuagem old school de livro com a frase Never More, chamas e flores"
+      }
+    ]
+  },
+  {
+    "id": "escrita-chinesa-pescoco",
+    "title": "Escrita chinesa",
+    "styles": [
+      "escrita"
+    ],
+    "placement": "Pescoço",
+    "date": "2026-08-24",
+    "description": "Ideogramas em coluna, acompanhando a linha do pescoço.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DcceVt8IHfP/",
+    "images": [
+      {
+        "src": "/assets/portfolio/escrita-chinesa-pescoco-1-full.webp",
+        "thumb": "/assets/portfolio/escrita-chinesa-pescoco-1-760.webp",
+        "w": 1500,
+        "h": 2000,
+        "alt": "Tatuagem de escrita chinesa em coluna no pescoço"
+      },
+      {
+        "src": "/assets/portfolio/escrita-chinesa-pescoco-2-full.webp",
+        "thumb": "/assets/portfolio/escrita-chinesa-pescoco-2-760.webp",
+        "w": 1507,
+        "h": 2000,
+        "alt": "Escrita chinesa no pescoço vista de outro ângulo"
+      }
+    ]
+  },
+  {
+    "id": "samurai",
+    "title": "Samurai",
+    "styles": [
+      "oriental",
+      "fineline"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-08-19",
+    "description": "Samurai com chapéu de palha, katanas e pétalas ao vento.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DcOI4SjjRwb/",
+    "featured": true,
+    "images": [
+      {
+        "src": "/assets/portfolio/samurai-1-full.webp",
+        "thumb": "/assets/portfolio/samurai-1-760.webp",
+        "w": 1343,
+        "h": 1544,
+        "alt": "Tatuagem de samurai com katanas e pétalas no antebraço"
+      },
+      {
+        "src": "/assets/portfolio/samurai-2-full.webp",
+        "thumb": "/assets/portfolio/samurai-2-760.webp",
+        "w": 1080,
+        "h": 1080,
+        "alt": "Tatuagem de samurai vista de perto"
+      }
+    ]
+  },
+  {
+    "id": "anime-itachi-anbu",
+    "title": "Itachi na Anbu",
+    "styles": [
+      "anime",
+      "blackwork"
+    ],
+    "placement": "Perna",
+    "date": "2026-07-30",
+    "description": "Máscara da Anbu com a katana nas costas.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DbaiEhtDc1b/",
+    "images": [
+      {
+        "src": "/assets/portfolio/anime-itachi-anbu-1-full.webp",
+        "thumb": "/assets/portfolio/anime-itachi-anbu-1-760.webp",
+        "w": 1080,
+        "h": 1080,
+        "alt": "Tatuagem anime do Itachi com máscara da Anbu na perna"
+      }
+    ]
+  },
+  {
+    "id": "anime-nuvem-akatsuki",
+    "title": "Nuvem da Akatsuki",
+    "styles": [
+      "anime",
+      "blackwork"
+    ],
+    "placement": "Perna",
+    "date": "2026-07-30",
+    "description": "Contorno grosso e sólido, feito para durar.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DbaiEhtDc1b/",
+    "images": [
+      {
+        "src": "/assets/portfolio/anime-nuvem-akatsuki-1-full.webp",
+        "thumb": "/assets/portfolio/anime-nuvem-akatsuki-1-760.webp",
+        "w": 1025,
+        "h": 1202,
+        "alt": "Tatuagem da nuvem da Akatsuki em traço preto na perna"
+      }
+    ]
+  },
+  {
+    "id": "fineline-peixe-quebrada",
+    "title": "Andando de quebrada",
+    "styles": [
+      "fineline"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-07-22",
+    "description": "Flash autoral em traço fino, do estêncil à pele.",
+    "instagram": "https://www.instagram.com/assis.ink/p/DbHeCAnoKrX/",
+    "images": [
+      {
+        "src": "/assets/portfolio/fineline-peixe-quebrada-1-full.webp",
+        "thumb": "/assets/portfolio/fineline-peixe-quebrada-1-760.webp",
+        "w": 1080,
+        "h": 1440,
+        "alt": "Tatuagem fine line de peixe com pernas e tênis"
+      },
+      {
+        "src": "/assets/portfolio/fineline-peixe-quebrada-2-full.webp",
+        "thumb": "/assets/portfolio/fineline-peixe-quebrada-2-760.webp",
+        "w": 1080,
+        "h": 1440,
+        "alt": "Estêncil e tatuagem do peixe andando de quebrada lado a lado"
+      }
+    ]
+  },
+  {
+    "id": "fineline-1967-oceano",
+    "title": "1967 · E eu, oceano",
+    "styles": [
+      "fineline",
+      "escrita"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-07-19",
+    "description": "Lettering em traço fino, com espaçamento pensado para o braço.",
+    "instagram": "https://www.instagram.com/assis.ink/p/Da_MAA9Dz02/",
+    "images": [
+      {
+        "src": "/assets/portfolio/fineline-1967-oceano-1-full.webp",
+        "thumb": "/assets/portfolio/fineline-1967-oceano-1-760.webp",
+        "w": 1080,
+        "h": 1439,
+        "alt": "Tatuagem fine line com o ano 1967 e a frase E eu, oceano"
+      },
+      {
+        "src": "/assets/portfolio/fineline-1967-oceano-2-full.webp",
+        "thumb": "/assets/portfolio/fineline-1967-oceano-2-760.webp",
+        "w": 1080,
+        "h": 1440,
+        "alt": "Detalhe do número 1967 tatuado em traço fino"
+      },
+      {
+        "src": "/assets/portfolio/fineline-1967-oceano-3-full.webp",
+        "thumb": "/assets/portfolio/fineline-1967-oceano-3-760.webp",
+        "w": 1080,
+        "h": 1440,
+        "alt": "Detalhe da frase E eu, oceano tatuada em traço fino"
+      }
+    ]
+  },
+  {
+    "id": "old-school-lucky",
+    "title": "Lucky",
+    "styles": [
+      "oldschool"
+    ],
+    "placement": "Antebraço",
+    "date": "2026-07-15",
+    "description": "Cartas, rosas e faixa com a palavra Lucky.",
+    "instagram": "https://www.instagram.com/assis.ink/p/Da1iELStffL/",
+    "images": [
+      {
+        "src": "/assets/portfolio/old-school-lucky-1-full.webp",
+        "thumb": "/assets/portfolio/old-school-lucky-1-760.webp",
+        "w": 1200,
+        "h": 1600,
+        "alt": "Tatuagem old school de cartas de baralho, rosas e faixa Lucky"
+      },
+      {
+        "src": "/assets/portfolio/old-school-lucky-2-full.webp",
+        "thumb": "/assets/portfolio/old-school-lucky-2-760.webp",
+        "w": 1080,
+        "h": 1080,
+        "alt": "Tatuagem Lucky com cartas e rosas vista de frente"
+      }
+    ]
+  },
+  {
+    "id": "escrita-el-arte-de-sentir",
+    "title": "El arte de sentir",
+    "styles": [
+      "escrita",
+      "fineline"
+    ],
+    "placement": "Costela",
+    "date": "",
+    "description": "Frase delicada com estrela, na lateral do tronco.",
+    "instagram": "",
+    "images": [
+      {
+        "src": "/assets/portfolio/escrita-el-arte-de-sentir-1-full.webp",
+        "thumb": "/assets/portfolio/escrita-el-arte-de-sentir-1-760.webp",
+        "w": 1600,
+        "h": 1194,
+        "alt": "Tatuagem da frase el arte de sentir com estrela na costela"
+      }
+    ]
+  }
+]
