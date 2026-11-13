@@ -10,3 +10,4 @@ node_modules/
 
 # vídeos originais (pesados; ficam só no computador)
 referencias/**/*.mp4
+hostinger.env

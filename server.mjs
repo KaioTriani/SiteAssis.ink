@@ -24,7 +24,9 @@ const auth = await import('./lib/auth.mjs');
 await store.init();
 
 const ROOT = fileURLToPath(new URL('./public/', import.meta.url));
-const PORT = Number(process.env.PORT) || 4330;
+// A Hostinger (LiteSpeed) pode passar a porta como número ou como caminho de socket.
+const RAW_PORT = (process.env.PORT || '').trim();
+const PORT = RAW_PORT ? (/^\d+$/.test(RAW_PORT) ? Number(RAW_PORT) : RAW_PORT) : 4330;
 const PUBLIC_URL = (process.env.PUBLIC_URL || `http://localhost:${PORT}`).replace(/\/$/, '');
 const SECURE = PUBLIC_URL.startsWith('https://');
 const SESSION = 'ai_session';

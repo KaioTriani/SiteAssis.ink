@@ -12,7 +12,7 @@ const zip = join(out, 'assis-ink.zip');
 rmSync(stage, { recursive: true, force: true });
 if (existsSync(zip)) rmSync(zip);
 mkdirSync(stage, { recursive: true });
-for (const p of ['server.mjs', 'package.json', 'lib', 'public', 'data-seed', '.env.example', 'README.md']) cpSync(join(root, p), join(stage, p), { recursive: true });
+for (const p of ['server.js', 'server.mjs', 'package.json', 'lib', 'public', 'data-seed', '.env.example', 'README.md']) cpSync(join(root, p), join(stage, p), { recursive: true });
 mkdirSync(join(stage, 'tools'));
 cpSync(join(root, 'tools', 'set-password.mjs'), join(stage, 'tools', 'set-password.mjs'));
 cpSync(join(root, 'tools', 'functest.mjs'), join(stage, 'tools', 'functest.mjs'));

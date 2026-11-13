@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Site do tatuador Assis.ink: portfólio, catálogo de artes, agendamento com Google Agenda e painel do artista.",
-  "type": "module",
-  "main": "server.mjs",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.mjs",
+    "start": "node server.js",
     "test": "node tools/functest.mjs",
     "set-password": "node tools/set-password.mjs",
     "package": "node tools/package.mjs"

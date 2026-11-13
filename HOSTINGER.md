@@ -13,7 +13,7 @@ O projeto não tem dependências para instalar e não precisa de etapa de build.
    - **Versão do Node:** 20 ou 22
    - **Diretório raiz:** `/` (raiz do repositório)
    - **Comando de build:** deixe vazio. Se o campo for obrigatório, use `npm install`, que não instala nada porque não há dependências.
-   - **Comando de início:** `npm start`. Se pedirem o arquivo de entrada, use `server.mjs`.
+   - **Comando de início:** `npm start`. Se pedirem o arquivo de entrada, use `server.js`.
 4. Em **Variáveis de ambiente**, cole as linhas do arquivo `CONFIG-HOSTINGER-PRIVADO.txt`. Esse arquivo fica só no computador e não está no GitHub. Antes de colar, troque:
    - `SEU-DOMINIO` pelo domínio real, por exemplo `https://www.assisink.com.br`;
    - `SEU-USUARIO` pelo usuário da hospedagem. Ele aparece no caminho do Gerenciador de Arquivos, como `/home/u123456789/`.
